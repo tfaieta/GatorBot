@@ -1,6 +1,8 @@
 import time
 import pathlib
 from selenium import webdriver
+from selenium.common.exceptions import NoSuchElementException, \
+    WebDriverException
 
 
 def scrapeReddit(url):
